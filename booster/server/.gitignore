@@ -3,3 +3,5 @@ package-lock.json
 tsconfig.json
 *.log
 database.sqlite
+*.sqlite-journal
+/.vscode
