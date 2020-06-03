@@ -1,8 +1,11 @@
 import express, { request, response } from 'express';
+import knex from './database/connection';
 
 const routes = express.Router();
 
-routes.get('/', (request, response)=>{
+routes.get('/items', async (request, response)=>{
+    const items = await knex('items').select('*');
+
     return response.json({ message: 'Hello world' });
 });
 
