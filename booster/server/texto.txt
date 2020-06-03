@@ -1,0 +1,3 @@
+npm install knex
+npm install sqlite3
+

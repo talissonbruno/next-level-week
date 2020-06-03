@@ -2,4 +2,4 @@
 package-lock.json
 tsconfig.json
 *.log
-
+database.sqlite
